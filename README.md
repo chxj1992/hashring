@@ -1,6 +1,8 @@
 hashring
 ============================
 
+[![Build Status](https://travis-ci.org/chxj1992/hashring.svg?branch=master)](https://travis-ci.org/chxj1992/hashring)
+
 Implements consistent hashing that can be used when
 the number of server nodes can increase or decrease (like in memcached).
 The hashing ring is built using the same algorithm as libketama.
