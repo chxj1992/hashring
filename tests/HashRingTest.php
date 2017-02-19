@@ -3,8 +3,9 @@
 namespace Chxj1992\HashRing\Tests;
 
 use Chxj1992\HashRing\HashRing;
+use PHPUnit\Framework\TestCase;
 
-class HashRingTest extends \PHPUnit_Framework_TestCase
+class HashRingTest extends TestCase
 {
 
     private function expectNode(HashRing $hashRing, $key, $expectedNode)
