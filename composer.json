@@ -1,0 +1,23 @@
+{
+    "name": "chxj1992/hashring",
+    "keywords": ["consistent hashing", "php", "libketama"],
+    "description": "Consistent hashing \"hashring\" implementation in php (using the same algorithm as libketama) ",
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Chxj1992\\HashRing\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Chxj1992\\HashRing\\Tests\\": "tests/"
+        }
+    }
+}
