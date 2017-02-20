@@ -16,7 +16,7 @@ Using
 Install ::
 
 ```bash
-composer install chxj1992/hashring:~1.0
+composer require chxj1992/hashring:~1.0
 ```
 
 Basic example usage ::
