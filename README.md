@@ -1,7 +1,5 @@
-hashring  [![Build Status](https://travis-ci.org/chxj1992/hashring.svg?branch=master)](https://travis-ci.org/chxj1992/hashring)
+HashRing  [![Build Status](https://travis-ci.org/chxj1992/hashring.svg?branch=master)](https://travis-ci.org/chxj1992/hashring)
 ============================
-
-
 
 <a href="http://www.wtfpl.net/"><img
        src="http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-4.png"
