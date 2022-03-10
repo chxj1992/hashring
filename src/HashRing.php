@@ -4,7 +4,6 @@ namespace Chxj1992\HashRing;
 
 class HashRing
 {
-
     private $ring = [];
     private $sortedKeys = [];
     private $nodes = [];
@@ -123,7 +122,7 @@ class HashRing
 
     public function addWeightedNode($node, $weight)
     {
-        if ($weight <= 0 OR in_array($node, $this->nodes)) {
+        if ($weight <= 0 or in_array($node, $this->nodes)) {
             return false;
         }
         $this->nodes[] = $node;
@@ -136,7 +135,7 @@ class HashRing
     public function updateWeightedNode($node, $weight)
     {
         /* node is not need to update for node is not existed or weight is not changed */
-        if ($weight <= 0 OR empty($this->weights[$node]) OR $this->weights[$node] == $weight) {
+        if ($weight <= 0 or empty($this->weights[$node]) or $this->weights[$node] == $weight) {
             return false;
         }
         $this->weights[$node] = $weight;
@@ -196,7 +195,7 @@ class HashRing
     {
         return array_map(function ($byte) {
             return ord($byte);
-        }, str_split(md5($key, TRUE)));
+        }, str_split(md5($key, true)));
     }
 
     private function hashVal($bKey)
@@ -207,5 +206,4 @@ class HashRing
             ($bKey[1] << 8) |
             ($bKey[0]);
     }
-
 }

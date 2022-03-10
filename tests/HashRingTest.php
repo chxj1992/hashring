@@ -7,7 +7,6 @@ use PHPUnit\Framework\TestCase;
 
 class HashRingTest extends TestCase
 {
-
     private function expectNode(HashRing $hashRing, $key, $expectedNode)
     {
         $node = $hashRing->GetNode($key);
@@ -431,5 +430,4 @@ class HashRingTest extends TestCase
         $this->expectNodesABC($hashRing);
         $this->expectNodeRangesABC($hashRing);
     }
-
 }
